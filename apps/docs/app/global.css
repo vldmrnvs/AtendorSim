@@ -15,4 +15,8 @@
   color: var(--color-fd-primary);
 }
 
-@source '../node_modules/fumadocs-ui/dist/**/*.js';
+/*
+ * Point Tailwind's @source directive to the workspace-level `node_modules`
+ * folder so that Fumadocs UI classes are discovered correctly.
+ */
+@source '../../../../node_modules/fumadocs-ui/dist/**/*.js';
